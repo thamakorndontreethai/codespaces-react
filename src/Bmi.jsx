@@ -14,8 +14,8 @@ export default function Bmi() {
         setBmi(w/(h*h));
     }
     return(<><h1> BMI Calculator</h1>
-    weight:<input ref={w_inputRef}/> kg.<br/>
-    height:<input ref={h_inputRef}/> cm.<br/>
+    Weight:<input ref={w_inputRef}/> kg.<br/>
+    Height:<input ref={h_inputRef}/> cm.<br/>
     <button onClick={()=>CalBmi()}>Calculate</button>
     <p>bmi value: {bmi} </p>
     <BmiText bmi ={bmi}/>
