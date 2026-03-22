@@ -13,7 +13,7 @@ export default function Bmi() {
         let h = parseFloat(h_inputRef.current.value)/100.0;
         setBmi(w/(h*h));
     }
-    return(<><h1> Bmi calculator</h1>
+    return(<><h1> BMI calculator</h1>
     weigth:<input ref={w_inputRef}/> kg.<br/>
     height:<input ref={h_inputRef}/> cm.<br/>
     <button onClick={()=>CalBmi()}>Calculate</button>
