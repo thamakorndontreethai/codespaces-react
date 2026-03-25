@@ -17,7 +17,7 @@ export default function Bmi() {
     Weight:<input ref={w_inputRef}/> kg.<br/>
     Height:<input ref={h_inputRef}/> cm.<br/>
     <button onClick={()=>CalBmi()}>Calculate</button>
-    <p>bmi value: {bmi} </p>
+    <p>BMI value: {bmi} </p>
     <BmiText bmi ={bmi}/>
     </>);
 }

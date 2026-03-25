@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #dfecff 0%, #b7d0f8 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -55,14 +55,14 @@ input:focus {
 /* ปุ่ม Calculate */
 button {
   background: linear-gradient(135deg, #3498db, #97a9b3);
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
-  padding: 14px 28px;
-  border-radius: 8px;
+  padding: 14px 50px;
+  border-radius: 15px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  margin: 16px 0;
+  margin: 16px 50px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
 }
@@ -105,7 +105,7 @@ h1:not(:first-child) {
 
 /* สีสำหรับแต่ละประเภท */
 h1:contains("Underweight") {
-  color: #3498db;
+  color: #d40000;
 }
 
 h1:contains("Normal") {
@@ -162,7 +162,7 @@ img, h1:not(:first-child) {
 
 /* เพิ่มสไตล์สำหรับ focus accessibility */
 button:focus-visible {
-  outline: 2px solid #3498db;
+  outline: 2px solid #037bcc;
   outline-offset: 2px;
 }
 
